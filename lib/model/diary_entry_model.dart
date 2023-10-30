@@ -11,7 +11,7 @@ class DayEntry {
   String description;
 
   @HiveField(2)
-  int rating;
+  double rating;
 
   DayEntry({required this.date, required this.description, required this.rating});
 }

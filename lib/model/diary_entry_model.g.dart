@@ -19,7 +19,7 @@ class DayEntryAdapter extends TypeAdapter<DayEntry> {
     return DayEntry(
       date: fields[0] as DateTime,
       description: fields[1] as String,
-      rating: fields[2] as int,
+      rating: fields[2] as double,
     );
   }
 
